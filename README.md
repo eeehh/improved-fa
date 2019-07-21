@@ -21,7 +21,7 @@ We also regularly review third-party plugins to ensure they are performing their
 ## Custom Plugins
 **NOTE: This project is licensed under the GNU General Public License v3.0, and therefore, custom plugins must be made open-source and available for anyone to use. We recommend doing this by opening a pull request to include your plugin in the extension itself.**
 
-If you are interested in making your own custom plugins, read the Wiki guide.
+If you are interested in making your own custom plugins, [read the Wiki](https://github.com/LachlanWalls/improved-fa/wiki/Creating-Plugins).
 
 If you have an idea for a plugin, but can't make it yourself, submit an issue with the label 'plugin request' - NOT 'enhancement'!
 
@@ -56,7 +56,7 @@ let enhancements = {
 
 ## Contributing
 There are three ways to contribute:
-- Make your own plugins! Refer to the wiki.
+- Make your own plugins! [Refer to the wiki](https://github.com/LachlanWalls/improved-fa/wiki/Creating-Plugins).
 - If you can make plugins but have no ideas, check out issues under the label 'plugin request'. If you see one that interests you and hasn't been claimed, claim it!
 - If you think there's functionality within the extension that could be improved, submit a feature request and show us!
         
