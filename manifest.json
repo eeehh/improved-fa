@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Improved FurAffinity",
+    "version": "0.1.0",
+
+    "description": "An extension which improves the appearance of the FurAffinity website.",
+    "icons": {
+        "16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+
+    "page_action": {
+        "default_title": "Improved FA",
+        "default_popup": "menu/index.html"
+    },
+
+    "author": "Lachlan Walls",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [{
+        "js": ["enhancements.js", "injector.js"],
+        "matches": ["*://www.furaffinity.net/*"]
+    }],
+
+    "permissions": ["declarativeContent", "storage"],
+    "short_name": "Improved FA",
+    "web_accessible_resources": ["packages/*", "packages/*"]
+}

@@ -1,0 +1,53 @@
+.block-banners {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.block-banners .ads {
+    width: 440px !important;
+    vertical-align: middle;
+}
+
+.header {
+    width: fit-content;
+    margin: auto;
+}
+
+#news {
+    display: inline-block;
+    border: none;
+    width: fit-content;
+    vertical-align: middle;
+    direction: rtl;
+    max-width: none;
+    height: auto;
+}
+
+#news img.dismiss {
+    display: none;
+}
+
+#news .dismiss {
+    float: none;
+    vertical-align: middle;
+    margin-left: 15px;
+    cursor: pointer;
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    padding-bottom: 30px;
+}
+
+#news i.dismiss:hover {
+    opacity: 1;
+}
+
+#news a {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    #news {
+        width: 95vw;
+    }
+}

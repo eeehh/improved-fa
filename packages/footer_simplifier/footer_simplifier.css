@@ -1,0 +1,17 @@
+body {
+    height: 100%;
+    padding-bottom: 60px;
+    min-height: calc(100vh - 60px - 48px);
+}
+
+.footer br,
+.footer center,
+.footer div {
+    display: none;
+}
+
+.footer {
+    position: absolute;
+    padding-bottom: 20px;
+    width: 100%;
+}

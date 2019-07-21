@@ -1,0 +1,18 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background: hsl(199, 17%, 16%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(199, 17%, 10%);
+    transition: background 0.2s;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(199, 17%, 8%);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: hsl(199, 17%, 6%);
+}

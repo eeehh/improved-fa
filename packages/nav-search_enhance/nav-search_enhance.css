@@ -1,0 +1,16 @@
+.search-box-container {
+    margin-top: 2px !important;
+}
+
+.search-box-container form input {
+    background: none !important;
+    cursor: text !important;
+}
+
+.search-box-container form a {
+    opacity: 1;
+}
+
+.search-box-container form a i {
+    margin-top: 1px;
+}

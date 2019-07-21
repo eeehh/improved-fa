@@ -1,0 +1,136 @@
+form[action="/submit/"] .maintable {
+    background-color: transparent;
+}
+
+form[action="/submit/"] td.cat {
+    background-color: transparent;
+    border: none;
+    text-align: center !important;
+}
+
+form[action="/submit/"] td.cat b {
+    display: none;
+}
+
+form[action="/submit/"] td.cat:after {
+    padding: 4px 16px;
+    border-radius: 6px;
+    background-color: #6a7283;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
+    content: "Submission Type";
+    font-size: 10pt;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+body#pageid-submit-uploadfile form[action="/submit/"] td.cat:after {
+    content: "File Upload";
+}
+
+body#pageid-submit-finalize form[action="/submit/"] td.cat:after {
+    content: "Finalize Submission";
+}
+
+form[action="/submit/"] .alt1 {
+    color: #2e3b41;
+}
+
+form[action="/submit/"] .alt1>* {
+    display: none;
+}
+
+form[action="/submit/"] .alt1 table {
+    display: table;
+    color: #cfcfcf;
+}
+
+form[action="/submit/"] .alt1 input[type="submit"] {
+    display: block;
+    float: right;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 8pt;
+    cursor: pointer;
+}
+
+body#pageid-submit-uploadfile form[action="/submit/"] img {
+    display: none;
+}
+
+form[action="/submit/"] select:not([multiple]) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+    padding: .1em .8em;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+form[action="/submit/"] input[type="text"],
+form[action="/submit/"] textarea {
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+}
+
+table.change-info tbody tr td {
+    vertical-align: top;
+    padding: 6px 8px !important;
+}
+
+table.change-info tbody tr td table tbody tr th {
+    display: none;
+}
+
+table.change-info tbody tr td table tbody tr td:before {
+    display: block;
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+    font-size: 7.5pt;
+}
+
+table.change-info tbody tr td.column1 table tbody tr:nth-child(1) td:before {
+    content: "Title"
+}
+
+table.change-info tbody tr td.column1 table tbody tr:nth-child(2) td:before {
+    content: "Description"
+}
+
+table.change-info tbody tr td.column1 table tbody tr:nth-child(3) td:before {
+    content: "Lock comments"
+}
+
+table.change-info tbody tr td.column1 table tbody tr:nth-child(4) td:before {
+    content: "Keywords"
+}
+
+table.change-info tbody tr td.column2 table tbody tr:nth-child(1) td:before {
+    content: "Category"
+}
+
+table.change-info tbody tr td.column2 table tbody tr:nth-child(2) td:before {
+    content: "Put in scraps"
+}
+
+table.change-info tbody tr td.column2 table tbody tr:nth-child(3) td:before {
+    content: "Theme"
+}
+
+table.change-info tbody tr td.column2 table tbody tr:nth-child(4) td:before {
+    content: "Species"
+}
+
+table.change-info tbody tr td.column2 table tbody tr:nth-child(5) td:before {
+    content: "Gender"
+}
+
+table.change-info tbody tr td.column2 table tbody tr:nth-child(6) td:before {
+    content: "Maturity Rating"
+}

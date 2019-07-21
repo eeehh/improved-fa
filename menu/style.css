@@ -1,0 +1,56 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    width: 380px;
+    padding: 0 20px;
+    max-height: 580px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h4 {
+    margin-top: 24px;
+}
+
+.mdl-textfield {
+    margin-top: -20px;
+    width: 100%;
+}
+
+.plugin-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.plugin {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.plugin .mdl-switch {
+    width: fit-content;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.plugin h5 {
+    font-size: 18px;
+    margin: 0 0 0 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: fit-content;
+}
+
+.plugin p {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.plugin .author {
+    margin-top: 4px;
+    opacity: 0.7;
+    font-size: 12px;
+}

@@ -1,0 +1,1 @@
+document.querySelector(".search-box-container form a").innerHTML = "<i class='material-icons'>search</i>"

@@ -1,0 +1,31 @@
+.old-table-emulation {
+    border: none;
+}
+
+.old-table-emulation .head {
+    border: none;
+    background-color: transparent;
+}
+
+.old-table-emulation .head h4 {
+    width: fit-content;
+    padding: 4px 16px;
+    border-radius: 6px;
+    background-color: #6a7283;
+    margin: auto;
+}
+
+.old-table-emulation .body {
+    border-top: none;
+}
+
+section.gallery figure.r-general u {
+    padding: 0;
+}
+
+section.gallery figure.r-general u>a {
+    border: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
