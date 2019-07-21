@@ -18,6 +18,7 @@ chrome.runtime.onInstalled.addListener(function() {
         }]);
     });
 
+    // enable the default enhancements
     let default_enhancements = ["adblock", "navigation_enhance", "navigation_fix", "header_enhance", "gallery_enhance", "nav-search_enhance", "scrollbar_enhance", "footer_simplifier", "browse_enhance", "submit_enhance"]
     chrome.storage.sync.set({ "enhancements": JSON.stringify(default_enhancements) })
 });

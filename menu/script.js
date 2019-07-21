@@ -1,3 +1,4 @@
+// a function to convert a list of plugins to a series of elements in the document
 function loadPlugins(plugins) {
     document.querySelector(".plugin-container").innerHTML = ""
     plugins.forEach((plugin, i) => {
@@ -59,6 +60,7 @@ function loadPlugins(plugins) {
 
 let user_enhancements = []
 
+// convert enhancements object into an array of plugins
 function pluginsArr() {
     let arr = []
     for (var key in enhancements) {
@@ -73,6 +75,7 @@ function savePlugins() {
     chrome.storage.sync.set({ "enhancements": JSON.stringify(user_enhancements) })
 }
 
+// whenever the search field is changed, update plugins list
 document.querySelector("#sample1").oninput = () => {
     let results = pluginsArr()
     let query = document.querySelector("#sample1").value.toUpperCase()
@@ -85,6 +88,7 @@ document.querySelector("#sample1").oninput = () => {
     loadPlugins(matches)
 }
 
+// load enhancements on document load
 document.body.onload = () => {
     chrome.storage.sync.get('enhancements', res => {
         user_enhancements = JSON.parse(res.enhancements)
