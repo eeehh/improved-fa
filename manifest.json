@@ -15,7 +15,7 @@
         "default_popup": "menu/index.html"
     },
 
-    "author": "Lachlan Walls",
+    "author": "eeehh <eeehhdev@gmail.com>",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
